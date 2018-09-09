@@ -23,7 +23,7 @@ $("#nombre").keypress(function (key) {
 
                 return false;
         });
-
+//Valida que tenga que ingresar un mail 
 /*$("#formulario").submit(function () {  
     if($("#email").val().length < 1) {  
         alert("La dirección e-mail es obligatoria");  
@@ -47,9 +47,23 @@ $("#fono").keyup(function (){
 });
 
 
-
-$(document).ready(function(){
+//Cambia el color del select al seleccionar
+/*$(document).ready(function(){
     $(".region").change(function(){
   $(this).css("background-color", "#D6D6FF");
       });
-}); 
+}); */
+
+/* Valida que el año de nacimiento sea anterior a 2001*/
+$(document).ready(function(){
+    $("#formulario").submit(function(){
+      var anio = $("#fec_nac").val();
+      anio = anio.substr(6,4);
+      anio = parseInt(anio);
+    if(anio>2000){
+      alert("El año de nacimiento debe ser menor a 2001");
+      return false;
+    }
+    return true;
+  });
+});
