@@ -1,4 +1,4 @@
-/*Permite solo el ingreso de letras mayusculas, minusculas*/
+/*Permite solo el ingreso de letras mayusculas, minusculas en el nombre*/
 $("#nombre").keypress(function (key) {
 	//permite solo reconocer letras, retroceso y espacio.
             window.console.log(key.charCode)
@@ -46,8 +46,10 @@ $("#fono").keyup(function (){
  this.value = (this.value + '').replace(/[^0-9]/g, '');
 });
 
+
+
 $(document).ready(function(){
     $(".region").change(function(){
-   $(this).css("background-color", "#D6D6FF");
+  $(this).css("background-color", "#D6D6FF");
       });
 }); 

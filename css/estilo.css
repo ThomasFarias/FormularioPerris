@@ -7,6 +7,17 @@ body{
     font-family: sans-serif;
 
 }
+optgroup{
+    background-color:gray;
+    color:white;
+    border-color: white;
+    font-weight: bold;
+    font-size:15px;
+}
+optgroup option{
+    color:white;
+    font-size:10px;
+}
 h1{
     color: #fff;
     text-align: center;
