@@ -52,132 +52,41 @@
                   </div>
                        
                          <div class="campo">
-                        <h3>Provincia*</h3>
-                       <select class="regyprov" required>
-                            <option value=""> --- </option>
-                            <optgroup label="ARICA Y PARINACOTA ">                            
-                            <option value="tarapaca">Arica</option>
-                            <option value="antofagasta">Parinacota</option>
-                          </optgroup>
+                        <h3>Región*</h3>
+                          <select id="region" name="region" class="regyprov">
+                          <option value=""> seleccione </option>
+                          <option>ARICA Y PARINACOTA</option>
+                          <option>TARAPACÁ</option> 
+                          <option>ANTOFAGASTA</option>
+                          <option>ATACAMA</option>                          
+                          <option>COQUIMBO</option>
+                          <option>VALPARAÍSO</option>
+                          <option>LIBERTADOR GRAL. BERNARDO O'HIGGINS</option>
+                          <option>MAULE</option>
+                          <option>BIOBÍO</option>
+                          <option>ARAUCANÍA</option>
+                          <option>DE LOS RÍOS</option>
+                          <option>DE LOS LAGOS</option>
+                          <option>AYSÉN</option>                          
+                          <option>MAGALLANES Y DE LA ANTÁRTICA CHILENA</option>
+                          <option>METROPOLITANA DE SANTIAGO</option>
 
-
-                            <optgroup label="TARAPACÁ">                            
-                            <option value="tarapaca">Iquique</option>
-                            <option value="antofagasta">Tamarugal</option>
-                          </optgroup>
-
-                              <optgroup label="ANTOFAGASTA">                            
-                            <option value="tarapaca">Antofagasta</option>
-                            <option value="antofagasta">El Loa</option>                            
-                            <option value="antofagasta">Tocopilla</option>
-
-                          </optgroup>
-
-                            <optgroup label="ATACAMA">                            
-                            <option value="tarapaca">Copiapó</option>
-                            <option value="antofagasta">Chañaral</option>                            
-                            <option value="antofagasta">Huasco</option>
-                            
-                          </optgroup>
-
-                            <optgroup label="COQUIMBO ">                            
-                            <option value="tarapaca">Elqui</option>
-                            <option value="antofagasta">Choapa</option>                            
-                            <option value="antofagasta">Limarí</option>
-                            
-                          </optgroup>
-
-
-                            <optgroup label=" VALPARAÍSO ">                            
-                            <option value="tarapaca">Valparaíso</option>
-                            <option value="antofagasta">Isla de Pascua</option>                            
-                            <option value="antofagasta"> Los Andes</option>
-                              <option value="antofagasta"> Quillota</option>                                                      
-                            <option value="antofagasta"> San Antonio</option>
-                              <option value="antofagasta"> San Felipe de Aconcagua</option>
-                            
-                          </optgroup>
-
-
-                            <optgroup label="DEL LIBERTADOR GRAL. BERNARDO O'HIGGINS ">                            
-                            <option value="tarapaca"> Cachapoal</option>
-                            <option value="antofagasta">Cardenal Caro</option>                            
-                            <option value="antofagasta">Colchagua</option>
-                            
-                          </optgroup>
-
-
-                            <optgroup label="MAULE">                            
-                            <option value="tarapaca">Talca</option>
-                            <option value="antofagasta">Cauquenes</option>                            
-                            <option value="antofagasta">Curicó</option>
-                            <option value="antofagasta">Linares</option>
-
-                          </optgroup>
                           
-                         
-                            <optgroup label="BIOBÍO ">                            
-                            <option value="tarapaca">Concepción</option>
-                            <option value="antofagasta"> Arauco</option>                            
-                            <option value="antofagasta"> Biobío</option>
-                            <option value="antofagasta">Ñuble</option>
+                        </select>
+                      </div>
 
-                          </optgroup>
-                            <optgroup label="ARAUCANÍA ">                            
-                            <option value="tarapaca">Cautín</option>
-                            <option value="antofagasta">Malleco</option>                            
-                            <option value="antofagasta">Curicó</option>
-                            <option value="antofagasta">Linares</option>
-
-                          </optgroup>
-                            <optgroup label="DE LOS RÍOS  ">                            
-                            <option value="tarapaca">Valdivia</option>
-                            <option value="antofagasta">Ranco</option>     
-
-                          </optgroup>
-
-                          </optgroup>
-                            <optgroup label="DE LOS LAGOS">                            
-                            <option value="tarapaca">Llanquihue</option>
-                            <option value="antofagasta">Chiloé</option>                                            
-                            <option value="tarapaca">Osorno</option>
-                            <option value="antofagasta">Palena</option>          
-
-                          </optgroup>
-                          </optgroup>
-                            <optgroup label="AYSÉN DEL GRAL. CARLOS IBAÑEZ DEL CAMPO ">                            
-                            <option value="tarapaca">Coyhaique</option>
-                            <option value="antofagasta"> Aysén</option>                                            
-                            <option value="tarapaca">Capitán Prat</option>
-                            <option value="antofagasta">General Carrera</option>          
-
-                          </optgroup>
-                          </optgroup>
-                            <optgroup label="MAGALLANES Y DE LA ANTÁRTICA CHILENA">                            
-                            <option value="tarapaca">Magallanes</option>
-                            <option value="antofagasta">Antártica Chilena</option>                                            
-                            <option value="tarapaca">Tierra del Fuego</option>
-                            <option value="antofagasta">Ultima Esperanza</option>          
-
-                          </optgroup>
-
-                          </optgroup>
-                            <optgroup label="METROPOLITANA DE SANTIAGO">                            
-                            <option value="tarapaca">Santiago</option>
-                            <option value="antofagasta">CORDILLERA</option>                                            
-                            <option value="tarapaca">Chacabuco</option>
-                            <option value="antofagasta">Maipo</option>          
-
-                          </optgroup>
-                                                 
-                                                 
-                          </select>
-                        </div>           
+                        <div class="campo">
+                        <h3>Provincia*</h3>
+                        <select id="prov" name="prov" class="regyprov">
+                          <option value=""></option>                          
+                        </select>
+                      </div> 
+                                
                        
                        
                         <div class="campo">
                         <h3>Tipo de Vivienda *</h3>              
-                        <select>
+                        <select required>
                              <option value="grande">Casa con patio grande</option>             
                              <option value="pequeño">Casa con patio pequeño</option>
                              <option value="sinpat">Casa sin patio</option> 
