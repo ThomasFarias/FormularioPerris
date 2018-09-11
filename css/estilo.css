@@ -1,3 +1,4 @@
+/*Configuracion del estilo del formulario*/
 *{
     box-sizing: border-box;
     margin: 0;
@@ -107,7 +108,7 @@ input{
 h3{
 	color:white;
 }
-
+/*Configurar el responsive*/
 @media screen and (max-width: 600px) {
     .contenedor-inputs{
         flex-direction:column;
