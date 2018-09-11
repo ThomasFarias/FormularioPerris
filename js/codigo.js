@@ -23,23 +23,7 @@ $("#nombre").keypress(function (key) {
 
                 return false;
         });
-//Valida que tenga que ingresar un mail 
-/*$("#formulario").submit(function () {  
-    if($("#email").val().length < 1) {  
-        alert("La dirección e-mail es obligatoria");  
-        return false;  
-    }  
-    return false;  
-});  */
 
-/*Valida que en el formulario el campo nombre no pueda estar vacío al envíar los datos*/
-/*$("#formulario").submit(function () {  
-    if($("#nombre").val().length < 1) {  
-        alert("El nombre es obligatorio");  
-        return false;  
-    }  
-    return false;  
-});  */
 
 /*Permitir solo el ingreso de numeros*/
 $("#fono").keyup(function (){
@@ -47,12 +31,6 @@ $("#fono").keyup(function (){
 });
 
 
-//Cambia el color del select al seleccionar
-/*$(document).ready(function(){
-    $(".region").change(function(){
-  $(this).css("background-color", "#D6D6FF");
-      });
-}); */
 
 /* Valida que el año de nacimiento sea anterior a 2001*/
 $(document).ready(function(){
